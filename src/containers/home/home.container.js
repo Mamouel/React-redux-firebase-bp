@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import firebase from "../../config/Firebase"
 
+import Card from "./components/Cards/CardContainer"
+
 class HomeContainer extends Component {
   constructor() {
     super();
@@ -23,6 +25,16 @@ class HomeContainer extends Component {
 
           <h3>Advanced search</h3>
         </header>
+
+        <div>
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+        </div>
       </div>
     );
   }

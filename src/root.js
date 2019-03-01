@@ -18,6 +18,8 @@ const Root = (props) => (
       <App>
         <Switch>
           <Route exact path="/" component={HomeContainer} />
+
+
           <Route
             component={() => (
               <div style={{ textAlign: "center" }}>
